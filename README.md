@@ -1,8 +1,8 @@
 ###### SETUP localhost
-#mount /media/docker partition with centos (alt f2 then:) disk utility
-#Setup proxy in docker: /etc/init.d/docker:env_args="HTTP_PROXY=http://proxyHost:8080/"
-#docker cheat sheet: https://github.com/wsargent/docker-cheat-sheet/blob/master/README.md
-#documentation on registry: https://docs.docker.com/registry/ https://docs.docker.com/registry/deploying/
+####### mount /media/docker partition with centos (alt f2 then:) disk utility
+####### Setup proxy in docker: /etc/init.d/docker:env_args="HTTP_PROXY=http://proxyHost:8080/"
+####### docker cheat sheet: https://github.com/wsargent/docker-cheat-sheet/blob/master/README.md
+####### documentation on registry: https://docs.docker.com/registry/ https://docs.docker.com/registry/deploying/
 
 ###### BUILD IMAGES
 docker build --tag localhost:5000/tna-solr-data /media/sf_workspace/sysdev-config/local/scripts/dockerfiles/solr-data/
